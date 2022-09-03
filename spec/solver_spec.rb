@@ -12,6 +12,7 @@ describe Solver do
       expect(sv.factorial(0)).to eq 1
       expect(sv.factorial(3)).to eq 6
       expect(sv.factorial(10)).to eq 3_628_800
+      expect(sv.factorial(-2)).to eq('math error')
     end
 
     it 'should reverse string when reverse method is called' do
