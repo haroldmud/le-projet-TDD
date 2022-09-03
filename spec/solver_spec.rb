@@ -26,6 +26,6 @@ describe Solver do
       expect(sv.fizzbuzz(5)).to eq('buzz')
       expect(sv.fizzbuzz(30)).to eq('fizzbuzz')
       expect(sv.fizzbuzz(7)).to eq('7')
-    # end
+    end
   end
 end
