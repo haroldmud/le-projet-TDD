@@ -1,6 +1,4 @@
 class Solver
-  def initialize; end
-
   def factorial(int)
     if int.zero?
       1
